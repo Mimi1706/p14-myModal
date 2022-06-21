@@ -1,2 +1,2 @@
-import Modal from "p14-myModal";
-export { Modal };
+import Modal from "./p14-myModal";
+export default Modal;

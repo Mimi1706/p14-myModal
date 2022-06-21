@@ -1,4 +1,4 @@
-import "./p14-my-modal.css";
+import "./p14-myModal.css";
 
 const Modal = (props) => {
   return (
