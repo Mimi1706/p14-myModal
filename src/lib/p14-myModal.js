@@ -1,4 +1,5 @@
 import "./p14-myModal.css";
+import React from "react";
 
 const Modal = (props) => {
   return (
