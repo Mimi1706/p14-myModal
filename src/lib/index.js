@@ -1,2 +1,2 @@
-import TextInput from "./TextInput";
-export { TextInput };
+import Modal from "p14-myModal";
+export { Modal };

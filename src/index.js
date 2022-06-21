@@ -1,12 +1,15 @@
 import React from 'react';
+import { useState } from "react";
 import { render } from "react-dom";
-import { TextInput } from "./lib";
+import Modal from "./lib";
 
-const App = () => (
-  <div style={{ width: 640, margin: "15px auto" }}>
-    <h1>Hello React</h1>
-    <TextInput label="Email Address" placeholder="name@example.com" />
+const App = () => {
+  const [modalDisplay, setModalDisplay] = useState(false);
+
+  return <div style={{ width: "100%", display:"flex", justifyContent:"center"}}>
+    <button onClick={() => setModalDisplay(true)}>Open Modal</button>
+    <Modal action={() => setModalDisplay(false)} display={modalDisplay} message={"Employee successfully created."}/>
   </div>
-);
+};
 
 render(<App />, document.getElementById("root"));
