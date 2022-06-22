@@ -1,12 +1,15 @@
 {
   "name": "p14-mymodal",
   "version": "0.1.5",
+  "homepage": "https://github.com/Mimi1706/p14-myModal",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
     "dist"
   ],
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build-examples": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
