@@ -21,7 +21,7 @@ import { useState } from "react";
 
 const [modalDisplay, setModalDisplay] = useState(false);
 ```
-By default, the modal will be hidden as represented by the **false** boolean set in "useState(false)", to show it, you'll have to set `modalDisplay` to **true** with `setModalDisplay(true)`.
+By default, the modal will be hidden as represented by the **false** boolean set in `useState(false)`, to show it, you'll have to set `modalDisplay` to **true** with `setModalDisplay(true)`.
 
 ### Example
 
