@@ -36,7 +36,7 @@ const App = () => {
 
   return <div style={{ width: "100%", display:"flex", justifyContent:"center"}}>
     <button onClick={() => setModalDisplay(true)}>Open Modal</button>
-    <Modal action={() => setModalDisplay(false)} display={modalDisplay} message={"Employee successfully created."}/>
+    <Modal action={() => setModalDisplay(false)} display={modalDisplay} message={"Your message here."}/>
   </div>
 };
 
