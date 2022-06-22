@@ -29,7 +29,7 @@ By default, the modal will be hidden as represented by the **false** boolean set
 import React from 'react';
 import { useState } from "react";
 import { render } from "react-dom";
-import Modal from "./lib";
+import Modal from "p14-mymodal";
 
 const App = () => {
   const [modalDisplay, setModalDisplay] = useState(false);

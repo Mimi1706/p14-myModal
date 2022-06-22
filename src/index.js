@@ -3,6 +3,10 @@ import { useState } from "react";
 import { render } from "react-dom";
 import Modal from "./lib";
 
+/**
+ * 
+ * @returns {JSX} App component
+ */
 const App = () => {
   const [modalDisplay, setModalDisplay] = useState(false);
 
