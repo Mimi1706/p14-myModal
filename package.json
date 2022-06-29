@@ -1,6 +1,6 @@
 {
   "name": "p14-mymodal",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://github.com/Mimi1706/p14-myModal",
   "main": "dist/index.js",
   "module": "dist/index.js",
