@@ -41,5 +41,16 @@
   },
   "dependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "tags": [
+    "react",
+    "modal",
+    "dialog"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "modal",
+    "dialog"
+  ]
 }
